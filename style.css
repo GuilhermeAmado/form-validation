@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edf2f7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
+    display: flex;
+    width: 700px;
+}
+
+.left-img {
+    display: flex;
+    flex: 1;
+    flex-direction: column-reverse;
+    background-image: url('https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+}
+
+.left-img .left-text {
+    color: #fff;
+    padding: 5rem;
+}
+
+.left-img .left-text p {
+    color: #a0aec0;
+}
+
+.form-container{
+    flex: 1;
+}
+
+.form {
+    padding: 5rem;
+    display: block;
+}
+
+.form h3 {
+    color: #374151;
+    margin-bottom: 2rem;
+}
+
+.form h3 span {
+    font-weight: 300;
+}
+
+.form button {
+    color: #edf2f7;
+    background-color: #667eea;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 12px 30px;
+    outline: none;
+}
+
+.form button:hover {
+    background-color: #5a67d8;
+}
+
+.form p {
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.form a {
+   color: #667eea;
+   text-decoration: none;
+}
+
+.form a:hover {
+    color: #5a67d8;
+    text-decoration: underline;
+ }
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    display: none;
+}
+
+.form-control input {
+    color: #374151;
+    font-weight: 700;
+    background-color: #edf2f7;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 40px;
+    width: 100%;
+}
+
+.form-control input::placeholder {
+    color: #a0aec0;
+    opacity: 1;
+}
+
+.form-control input:focus {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #718096;
+    outline: none;
+    outline-offset: 0;
+}
+
+.form-control small {
+    font-size: 1rem;
+    font-weight: 700;
+    color: darkred;
+    padding: 0 1rem;
+}
