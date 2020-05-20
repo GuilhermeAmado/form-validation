@@ -65,7 +65,7 @@ body {
 
 .form h3 {
     color: #374151;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .form h3 span {
@@ -137,7 +137,6 @@ body {
     font-size: 1rem;
     font-weight: 700;
     color: #e53e3e;
-    padding: 0 1rem;
     visibility: hidden;
 }
 
