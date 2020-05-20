@@ -131,12 +131,26 @@ body {
     background-color: #fff;
     border: 1px solid #718096;
     outline: none;
-    outline-offset: 0;
 }
 
 .form-control small {
     font-size: 1rem;
     font-weight: 700;
-    color: darkred;
+    color: #e53e3e;
     padding: 0 1rem;
+    visibility: hidden;
+}
+
+.form-control.success input {
+    border-color: #38a169;
+    border-width: 2px;
+}
+
+.form-control.error input {
+    border-color: #e53e3e;
+    border-width: 2px;
+}
+
+.form-control.error small {
+    visibility: visible;
 }
